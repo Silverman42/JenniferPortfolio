@@ -1,0 +1,40 @@
+.animate{
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.animate.fade{
+    opacity: 0;
+}
+
+.animate.fade.complete{
+    opacity: 1;
+}
+
+.animate.fade-bg{
+    opacity: 0;
+}
+
+.animate.fade-bg.complete{
+    opacity: 0.4;
+}
+
+.animate.slide-left{
+    opacity: 0;
+    transform: translateX(7px);
+}
+
+.animate.slide-left.complete{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.animate.slide-up{
+    opacity: 0;
+    transform: translateY(7px);
+}
+
+.animate.slide-up.complete{
+    opacity: 1;
+    transform: translateY(0px);
+}
